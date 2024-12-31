@@ -6,9 +6,9 @@ app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'dummymailpragun@gmail.com'  
-app.config['MAIL_PASSWORD'] = 'aldv sutq kklm ruvn'  
-app.config['MAIL_DEFAULT_SENDER'] = 'dummymailpragun@gmail.com'
+app.config['MAIL_USERNAME'] = 'kakkarpragun.work@gmail.com'  
+app.config['MAIL_PASSWORD'] = 'smkl vikx iuze bawk'  
+app.config['MAIL_DEFAULT_SENDER'] = 'kakkarpragun.work@gmail.com'
 
 mail = Mail(app)
 
@@ -36,7 +36,7 @@ def submit_form():
 
             msg = Message(
                 subject=f"Portfolio Contact: {subject}",
-                recipients=['dummymailpragun@gmail.com'],
+                recipients=['kakkarpragun.work@gmail.com'],
                 body=f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
             )
 
